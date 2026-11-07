@@ -48,17 +48,17 @@ public class App {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nezha.july.kdns.fr:10063");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "IWV1jk7lUMOldX2F7cY5PvBBtLWYwxXa");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
-    private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "freemchosting.jiujiu.ccwu.cc");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiYjUxYmFhNWQ4NjJhMGZlM2YxNDBkYmUwZGZmOGQzYTYiLCJ0IjoiZTk3Zjg2MmEtZDhkMi00ODQwLTk0YjgtNTY5YTQwZGI0YWVlIiwicyI6IlZ0Rll5cEw4cFJaK1UzRU1scnQyYWVRZHlFWjRNS1Fsd2FYY1BMdW5FcGM9In0=");
+    private static final int ARGO_PORT = envInt("ARGO_PORT", 36951);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "41014");
+    private static final String HY2_PORT = env("HY2_PORT", "5023");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "gamesilo");
+    private static final String NAME = env("NAME", "freemchosting");
     private static final String CHAT_ID = env("CHAT_ID", "7627328147");  // 如果关闭了log输出,请填写tg推送，否则找不到节点
     private static final String BOT_TOKEN = env("BOT_TOKEN", "8712829238:AAEkSunL7neEXazQUzTXFaWFbajD2SQEA-Y");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
